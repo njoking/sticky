@@ -13,6 +13,12 @@
     height: 400px;
     border: 2px solid;
 }
+.div4{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+}
 
 .text-visible{
     color:gold
@@ -20,16 +26,19 @@
 .grey{
     background-color:grey
 }
+/* This one is working perfectly! well done.  */
 .positioning{
     position:sticky;
     top: 300px;
     right: 200px
 }
 .div-sticky{
-    background-color:gold
+    /* You forgot the semicolon after gold and sticky */
+    /* Also...nothing in your html is assigned this css class. for it to work, you need to add class="div-sticky" to the div you want to be sticky. */
+    background-color:gold; 
     height: 600px;
     width: 100px;
-    position:sticky
+    position:sticky;
     border: 2px solid;
 
 }
